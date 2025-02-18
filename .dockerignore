@@ -1,30 +1,17 @@
 # Node modules & dependencies
-node_modules
-npm-debug.log
-pnpm-debug.log
-yarn-error.log
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
+node_modules/
 
-# Vite build output
-dist
-.vite
-.cache
+# Build output
+.vite/
 
-# Environment variables
-.env
-.env.local
-.env.*.local
+# Environment files
+# .env*
 
 # Editor & system files
-.idea
-.vscode
-*.swp
-*.swo
+.vscode/
 .DS_Store
 Thumbs.db
 
-# Docker files (optional)
-.dockerignore
-Dockerfile
+# Logs
+*.log
+logs/

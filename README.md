@@ -22,6 +22,27 @@ Ensure you have the following installed:
    npm install  # or yarn install
    ```
 
+## ⚙️ Environment Variables  
+
+Create a `.env` file in the project root and configure the API URL:  
+
+```
+VITE_API_IMAGE=https://garasi-backend-production.up.railway.app/api/image
+```
+
+### 📉 Notes:  
+- **For Production**, use the deployed backend URL.  
+- **For Local Development**, use:  
+  ```
+  VITE_API_IMAGE=http://127.0.0.1:3000/api/image
+  ```
+- **Leave it empty** to use default backend settings:  
+  ```
+  VITE_API_IMAGE=
+  ```
+
+---
+
 ## ▶️ Running the Project
 
 ### Development Mode:
